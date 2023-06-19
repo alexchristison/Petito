@@ -98,6 +98,21 @@ WSGI_APPLICATION = 'petito.wsgi.application'
 # }
 
 
+# psql 'postgresql://alexchristison:gD0rFlshL4PA@ep-mute-snow-094969.us-east-1.aws.neon.tech/neondb'
+
+
+# To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
+
+# DATABASES = {
+#   'default': {
+#     'ENGINE': 'django.db.backends.postgresql',
+#     'NAME': 'neondb',
+#     'USER': 'danielamosqueragranda',
+#     'PASSWORD': 'ZsG3y6zeqBPL',
+#     'HOST': 'ep-autumn-union-121328.us-east-1.aws.neon.tech',
+#     'PORT': '5432',
+#   }
+# }
 
 # To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
@@ -105,9 +120,9 @@ DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'neondb',
-    'USER': 'danielamosqueragranda',
-    'PASSWORD': 'ZsG3y6zeqBPL',
-    'HOST': 'ep-autumn-union-121328.us-east-1.aws.neon.tech',
+    'USER': 'alexchristison',
+    'PASSWORD': 'gD0rFlshL4PA',
+    'HOST': 'ep-mute-snow-094969.us-east-1.aws.neon.tech',
     'PORT': '5432',
   }
 }
